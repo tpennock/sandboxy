@@ -35,17 +35,36 @@
 			<div class="navbar-inner">
 				<div class="container">
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-					<a class="brand" href="#">PHP - Objects, Patterns, and Practice Sandbox</a>
+					<a class="brand" href="/sandboxy">Sandboxy - PHP, Javascript, HTML5/CSS3 Playground</a>
 					<div class="nav-collapse">
 						<ul class="nav">
 							<li class="active">
-								<a href="#objects">Objects</a>
+								<a href="/sandboxy">Welcome</a>
+							</li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+									PHP - OPP
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="/sandboxy/php-opp/#objects">Objects</a>
+									</li>
+									<li>
+										<a href="/sandboxy/php-opp/#patterns">Patterns</a>
+									</li>
+									<li>
+										<a href="/sandboxy/php-opp/#practice">Practice</a>
+									</li>
+									<li class="divider"></li>
+									<li class="nav-header">More Stuff</li>
+									<li>
+										<a href="#">Extras</a>
+									</li>
+								</ul>
 							</li>
 							<li>
-								<a href="#patterns">Patterns</a>
-							</li>
-							<li>
-								<a href="#practice">Practice</a>
+								<a href="/sandboxy/chosen">Chosen</a>
 							</li>
 						</ul>
 					</div><!--/.nav-collapse -->
@@ -184,18 +203,18 @@
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="../js/jquery-1.7.2.min.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-transition.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-alert.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-modal.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-dropdown.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-scrollspy.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-tab.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-tooltip.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-popover.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-button.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-collapse.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-carousel.js"></script>
-		<script src="../js/bootstrap-plugins/bootstrap-typeahead.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-transition.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-alert.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-modal.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-dropdown.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-scrollspy.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-tab.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-tooltip.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-popover.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-button.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-collapse.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-carousel.js"></script>
+		<script src="../js/bootstrap/bootstrap-plugins/bootstrap-typeahead.js"></script>
 
 	</body>
 </html>
