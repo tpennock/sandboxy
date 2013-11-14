@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Bootstrap Test</title>
+		<title>Sandboxy</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -27,9 +27,14 @@
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+		<script type="text/javascript">
+			function colorCheck(id){
+				id.value=='Enter a new task...'? id.style.color = 'green' : id.style.color = 'red';
+			}
+		</script>
 	</head>
 
-	<body>
+	<body onload="colorCheck(id)">
 
 		<div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
@@ -66,6 +71,9 @@
 							<li>
 								<a href="/sandboxy/chosen">Chosen</a>
 							</li>
+							<li>
+								<a href="/sandboxy/misc">Misc</a>
+							</li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>
@@ -73,10 +81,19 @@
 		</div>
 
 		<div class="container">
-
-			<h1>Welcome to Sandboxy</h1>
+			
+			<div class="page-header">
+				<h1>Welcome to Sandboxy</h1>
+			</div>
+				
 			<p>
-				You'll find lots of cool projects here.
+				You'll find lots of cool projects here. <a href="#" data-toggle="tooltip" title="first tooltip">hover over me</a>
+			</p>
+			<p>
+				<textarea style="color:green;" onkeyup="this.style.color=(this.value.length>10)?'red':'green';">'.$task.'</textarea>
+				<textarea onblur="this.value='Enter a new task...')?'#A7A7A7':'initial'" rows="4" cols="50" id="position'.$i.'" class="taskbox">'.$task.'</textarea>
+				
+				<textarea onblur="colorCheck(this)" rows="4" cols="50" id="id" class="position'.$i.' taskbox"></textarea>
 			</p>
 			
 		</div>
@@ -98,6 +115,7 @@
 		<script src="js/bootstrap/bootstrap-plugins/bootstrap-collapse.js"></script>
 		<script src="js/bootstrap/bootstrap-plugins/bootstrap-carousel.js"></script>
 		<script src="js/bootstrap/bootstrap-plugins/bootstrap-typeahead.js"></script>
+		<script src="js/app.js"></script>
 
 	</body>
 </html>
