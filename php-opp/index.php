@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Bootstrap Test</title>
+		<title>Sandboxy :: PHP Objects, Patters and Practice</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -38,10 +38,10 @@
 					<a class="brand" href="/sandboxy">Sandboxy - PHP, Javascript, HTML5/CSS3 Playground</a>
 					<div class="nav-collapse">
 						<ul class="nav">
-							<li class="active">
+							<li>
 								<a href="/sandboxy">Welcome</a>
 							</li>
-							<li class="dropdown">
+							<li class="active dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#">
 									PHP - OPP
 									<b class="caret"></b>
@@ -66,6 +66,9 @@
 							<li>
 								<a href="/sandboxy/chosen">Chosen</a>
 							</li>
+							<li>
+								<a href="/sandboxy/misc">Misc</a>
+							</li>
 						</ul>
 					</div><!--/.nav-collapse -->
 				</div>
@@ -73,6 +76,10 @@
 		</div>
 
 		<div class="container">
+			
+			<div class="page-header">
+				<h1>PHP - Objects, Patterns and Practice</h1>
+			</div>
 
 			<div class="tabbable">
 				<ul class="nav nav-tabs">

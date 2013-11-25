@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Bootstrap Test</title>
+		<title>Sandboxy :: Chosen</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
@@ -28,104 +28,6 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
 
-		<style>
-			/* RESET */
-			html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, font, img, dl, dt, dd, ol, ul, li, legend, table, tbody, tr, th, td {
-				margin: 0px;
-				padding: 0px;
-				border: 0;
-				outline: 0;
-				font-weight: inherit;
-				font-style: inherit;
-				font-size: 100%;
-				font-family: inherit;
-				list-style: none;
-			}
-			a img {
-				border: none;
-			}
-			ol li {
-				list-style: decimal outside;
-			}
-			fieldset {
-				border: 0;
-				padding: 0;
-			}
-
-			body {
-				font-family: sans-serif;
-				font-size: 1em;
-			}
-
-			div#container {
-				width: 780px;
-				margin: 0 auto;
-				padding: 1em 0;
-			}
-			p {
-				margin: 1em 0;
-				max-width: 700px;
-			}
-			h1 + p {
-				margin-top: 0;
-			}
-
-			h1, h2 {
-				font-family: Georgia, Times, serif;
-			}
-			h1 {
-				font-size: 2em;
-				margin-bottom: .75em;
-			}
-			h2 {
-				font-size: 1.5em;
-				margin: 2.5em 0 .5em;
-				border-bottom: 1px solid #999;
-				padding-bottom: 5px;
-			}
-			h3 {
-				font-weight: bold;
-			}
-
-			ul li {
-				list-style: disc;
-				margin-left: 1em;
-			}
-			ol li {
-				margin-left: 1.25em;
-			}
-
-			div.side-by-side {
-				width: 100%;
-				margin-bottom: 1em;
-			}
-			div.side-by-side > div {
-				float: left;
-				width: 50%;
-			}
-			div.side-by-side > div > em {
-				margin-bottom: 10px;
-				display: block;
-			}
-
-			a {
-				color: orange;
-				text-decoration: underline;
-			}
-
-			.faqs em {
-				display: block;
-			}
-
-			.clearfix:after {
-				content: "\0020";
-				display: block;
-				height: 0;
-				clear: both;
-				overflow: hidden;
-				visibility: hidden;
-			}
-		</style>
 		<link rel="stylesheet" href="../js/chosen/chosen/chosen.css" />
 	</head>
 
@@ -137,7 +39,7 @@
 					<a class="brand" href="/sandboxy">Sandboxy - PHP, Javascript, HTML5/CSS3 Playground</a>
 					<div class="nav-collapse">
 						<ul class="nav">
-							<li class="active">
+							<li>
 								<a href="/sandboxy">Welcome</a>
 							</li>
 							<li class="dropdown">
@@ -162,8 +64,11 @@
 									</li>
 								</ul>
 							</li>
-							<li>
+							<li class="active">
 								<a href="/sandboxy/chosen">Chosen</a>
+							</li>
+							<li>
+								<a href="/sandboxy/misc">Misc</a>
 							</li>
 						</ul>
 					</div><!--/.nav-collapse -->
@@ -174,7 +79,10 @@
 		<div class="container">
 			<form>
 				<div id="container">
-					<h1>Chosen</h1>
+					<div class="page-header">
+						<h1>Chosen</h1>
+					</div>
+					
 					<p>
 						Chosen is a JavaScript plugin for Prototype and jQuery that makes long, unwieldy select boxes much more user-friendly. For more information (including usage, explanation and faqs), check out the <a href="http://harvesthq.github.com/chosen/">online documentation</a>.
 					</p>
