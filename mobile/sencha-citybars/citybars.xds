@@ -1,0 +1,64 @@
+{
+    "name": "citybars",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.1.45",
+            "frameworkVersion": "2.3.0.328"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "http://localhost/sandboxy/mobile/sencha-citybars",
+        "exportPath": "/Applications/MAMP/htdocs/sandboxy/sencha-architect/",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app"
+        },
+        "license": "commercial",
+        "customPath": ""
+    },
+    "xdsVersion": "3.0.0",
+    "xdsBuild": 1337,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000003,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "1ec0cda3-c685-4e47-a677-7b15f513412c",
+            "d1229727-ba9c-488c-a84e-2110ec903032",
+            "acac37b1-5729-4df1-b600-6ff6b17d63d1"
+        ],
+        "store": [
+            "48351a2d-7678-4c02-af21-af9f04fc49fa"
+        ],
+        "controller": [
+            "50f3d27c-9b56-440a-988f-ca9203dedc4c"
+        ],
+        "model": [
+            "5d863a58-36ee-4fae-8a54-7911f5df11d0"
+        ],
+        "resource": [
+            "2e0aac66-dc23-4e6e-ad28-737196010513",
+            "6584499b-fe47-41f1-b87c-f7d7219b57f6",
+            "09966ff8-6f85-4d58-a144-d0a5dd0222cd",
+            "74935903-26ae-48e9-8476-838b3b32dcae"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

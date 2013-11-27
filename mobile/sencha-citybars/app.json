@@ -1,0 +1,68 @@
+{
+   "name": "CityBars",
+   "indexHtmlPath": "index.html",
+   "url": null,
+   "js": [
+      {
+         "path": "touch/sencha-touch.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "bootstrap.js",
+         "x-bootstrap": true
+      },
+      {
+         "path": "app.js",
+         "bundle": true,
+         "update": "delta"
+      }
+   ],
+   "css": [
+      {
+         "update": "delta",
+         "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+         ],
+         "theme": "Default",
+         "path": "theme/sencha-touch-6584499b-fe47-41f1-b87c-f7d7219b57f6.css",
+         "_architect_active_theme": true
+      },
+      {
+         "path": "citybars.css"
+      }
+   ],
+   "appCache": {
+      "cache": [
+         "index.html"
+      ],
+      "network": [
+         "*"
+      ],
+      "fallback": []
+   },
+   "resources": [
+      "resources/images",
+      "resources/icons",
+      "resources/startup"
+   ],
+   "ignore": [
+      ".svn$"
+   ],
+   "archivePath": "archive",
+   "requires": [],
+   "id": "793584c9-5595-4c93-9764-408d4b2d9956",
+   "_architect": {
+      "_comment": "Please don't edit. This is Architect data.",
+      "name": "CityBars",
+      "css": [
+         {
+            "path": "citybars.css"
+         }
+      ],
+      "js": [],
+      "resources": [],
+      "requires": []
+   }
+}

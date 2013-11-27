@@ -1,0 +1,206 @@
+{
+    "type": "Ext.tab.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "detailpanel",
+        "designer|userClassName": "DetailPanel"
+    },
+    "designerId": "acac37b1-5729-4df1-b600-6ff6b17d63d1",
+    "cn": [
+        {
+            "type": "Ext.tab.Bar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "center",
+                "designer|uiInterfaceName": "light",
+                "docked": "top",
+                "ui": "light"
+            },
+            "designerId": "50cb7ab9-2c2c-4fd1-9df2-0b72b1591f3c"
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "contact",
+                "title": "Contact"
+            },
+            "designerId": "0faa4a7e-503f-439e-8337-a92e574ca725",
+            "cn": [
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "info",
+                        "layout": "hbox",
+                        "padding": 10
+                    },
+                    "designerId": "9ac0734f-696a-423b-a3b0-231c308bcaa4",
+                    "cn": [
+                        {
+                            "type": "Ext.XTemplate",
+                            "reference": {
+                                "name": "tpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|displayName": "tpl",
+                                "implHandler": [
+                                    "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>;",
+                                    "<h2>{name}</h2><div class=\"info\">{address1}<br/>",
+                                    "<img src=\"{rating_img_url_small}\"/></div>"
+                                ]
+                            },
+                            "designerId": "575892e9-fa2d-491e-ac80-938bebbeaeb5"
+                        },
+                        {
+                            "type": "Ext.Component",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 100,
+                                "id": "photo",
+                                "width": 100
+                            },
+                            "designerId": "bd50aa43-18cc-4411-bcb0-6242220e4a9a",
+                            "cn": [
+                                {
+                                    "type": "Ext.XTemplate",
+                                    "reference": {
+                                        "name": "tpl",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|displayName": "tpl",
+                                        "implHandler": [
+                                            "<img class=\"photo\" src=\"{photo_url}\" width=\"100\" height=\"100\"/>"
+                                        ]
+                                    },
+                                    "designerId": "e6c05bf0-4500-49cc-8065-c722c3446393"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.Component",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "data",
+                                "padding": 10
+                            },
+                            "designerId": "d6f3fdb7-70aa-4128-ab3d-0bd8614da939",
+                            "cn": [
+                                {
+                                    "type": "Ext.XTemplate",
+                                    "reference": {
+                                        "name": "tpl",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|displayName": "tpl",
+                                        "implHandler": [
+                                            "<h2>{name}</h2><div class=\"info\">{address1}<br/>",
+                                            "<img src=\"{rating_img_url_small}\"/></div>"
+                                        ]
+                                    },
+                                    "designerId": "4dfad1fd-c07e-4fbe-a6fb-04f12c776dec"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|pack": "center",
+                        "layout": "hbox"
+                    },
+                    "designerId": "5cb5a0f7-6825-411b-981d-0e5e886b5797",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Call",
+                                "width": 100
+                            },
+                            "designerId": "371f5603-fe61-4145-b5c9-718731db19e4"
+                        },
+                        {
+                            "type": "Ext.Spacer",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 57
+                            },
+                            "designerId": "f99f13b5-9232-4de2-84e4-54c6b779fd25"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "More",
+                                "width": 100
+                            },
+                            "designerId": "cb94fcfd-1974-48c6-9837-a794f729a40e"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Map",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "detailMap",
+                "title": "Map"
+            },
+            "designerId": "753e36a8-f701-4361-a98d-d5a805554c7b"
+        }
+    ]
+}
